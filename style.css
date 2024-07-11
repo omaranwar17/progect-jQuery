@@ -1,0 +1,115 @@
+.imge{
+    background: linear-gradient(rgba(240,0,0,0.6),rgba(240,0,0,0.6)) , url(imges/header-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.itmes{
+    position: relative;
+}
+.itmes .text{
+    position: absolute;
+  margin-top: 50%;
+}
+.text h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.text p{
+    font-size: 20px;
+}
+ 
+
+
+
+.text-2{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+   
+
+}
+.icon{
+    cursor: pointer;
+}
+.nav{
+    background-color: black;
+    height: 100%;
+    padding: 40px;
+
+}
+.text-2 .nav a,
+.text-2 .nav i{
+    color: wheat;
+    text-decoration: none;
+    margin-top: 40px;
+    cursor: pointer;
+  
+    font-size: 25px;
+}
+.text-2 .nav i{
+    margin-left: 100px;
+}
+.text-2 .nav a:hover{
+    color: rgb(254, 0, 0,0.5);
+}
+.text-2 .nav i:hover{
+    color: rgb(254, 0, 0,0.5); 
+}
+.duration{
+    margin: 100px 0 40px ;
+    background-color: brown;
+    width: 50%;
+    cursor: pointer;
+}
+.duration h3{
+    color: wheat;
+    padding: 10px;
+    padding: 20px;
+}
+.duration p{
+    background-color: #777;
+    color: #333;
+}
+.details{
+    margin: 150px 0;
+}
+.count{
+    background: linear-gradient(rgba(240,0,0,0.3),rgba(240,0,0,0.3)) , url(imges/about.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 100px;
+   
+
+}
+.time{
+  border: 1px solid wheat;
+   margin-top: 150px;
+   padding:50px 20px;
+}
+
+.icon-list i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+  
+}
+.icon-list i:hover{
+    background-color: red;
+    color: wheat;
+
+}
+textarea{
+    height: 200px;
+    width: 100%;
+}
+.contact{
+    padding: 0 0 100px ;
+}
